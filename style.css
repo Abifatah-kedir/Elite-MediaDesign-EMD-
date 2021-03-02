@@ -1,0 +1,63 @@
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* body {
+	background-color:#F0AD4E;
+} */
+
+
+
+
+/* ---- Navigation ---- */
+
+.main-header {
+	width: 100%;
+	background-color: #002F6C;
+}
+.main-header, 
+.logo,
+.main-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo,
+.main-nav {
+	width: 100%;
+	/* margin: 10px auto; */
+	border: 1px solid black;
+}
+
+.companyLogo {
+	width:130px;
+	height: 110px;
+	/* border: 1px solid red;
+	border-radius: 20%; */
+}
+ 
+
+.main-nav li{
+	width:100%;
+	background: #1e2020;
+	margin: 5px;
+	text-align: center;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #F0AD4E;
+	text-transform: uppercase;
+
+}
+
+a,
+li {
+	text-decoration: none;
+	list-style-type: none;
+ }
+ .main-nav a:hover {
+	color:#96a09f; 
+} 
